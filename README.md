@@ -123,12 +123,12 @@
 
 **Code:**
 
-* Ingredient
-* Instruction
-* Recipe
-* SQL 
-* RecipeRepository
-* application.properties
+* [Ingredient](https://raw.githubusercontent.com/dhughes/tiy-developer-designer-crashcourse/master/implement_search/Ingredient.java)
+* [Instruction](https://raw.githubusercontent.com/dhughes/tiy-developer-designer-crashcourse/master/implement_search/Instruction.java)
+* [Recipe](https://raw.githubusercontent.com/dhughes/tiy-developer-designer-crashcourse/master/implement_search/Recipe.java)
+* SQL <------ @todo
+* [RecipeRepository](https://raw.githubusercontent.com/dhughes/tiy-developer-designer-crashcourse/master/implement_search/RecipeRepository.java)
+* [application.properties](https://raw.githubusercontent.com/dhughes/tiy-developer-designer-crashcourse/master/implement_search/application.properties)
 * RecipeController
 
 **Core Concepts:**
