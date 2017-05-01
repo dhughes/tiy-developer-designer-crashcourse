@@ -168,13 +168,10 @@
 
 * CSS used for styling
 * Development is an iterative process
-<<<<<<< HEAD
 * First step is just to get something on the page so that Doug and the backend developers can work. After, you can start refining.
-* Add media queries for responsiveness. 
-=======
-* ?????
+* Add media queries for responsiveness.
 
-## Start Recipe HTML 
+## Start Recipe HTML
 
 **Done By:**
 
@@ -192,4 +189,3 @@
 **Core Concepts:**
 
 * More natural templates (click from index to recipe)
->>>>>>> 08fbed90f02acabdf658272db3a7018225d28d86
