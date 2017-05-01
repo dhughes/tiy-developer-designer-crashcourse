@@ -110,7 +110,7 @@
 
 **Demo:**
 
-* Create classes to describe recipes
+* Create classes to describe recipes (review properties / based off design)
 	* Recipe
 	* Ingredient
 	* Instruction
@@ -129,7 +129,7 @@
 * SQL 
 * RecipeRepository
 * application.properties
-* 
+* RecipeController
 
 **Core Concepts:**
 
