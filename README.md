@@ -69,6 +69,11 @@
 * Create a Github repo
 	* Add Lexi as collaborator
 * Create a Spring project in IntelliJ
+	* Web
+	* Thymeleaf
+	* JDBC
+	* Postgres
+	* Devtools
 * Push to Github
 
 **Core Concepts:**
@@ -91,16 +96,19 @@
 
 **Demo:**
 
+* Clone from Github
 * Create templates and static folders
-* Create HTML and CSS files for Search
-
-**Code:**
-
-* [index.html](https://raw.githubusercontent.com/dhughes/tiy-developer-designer-crashcourse/master/initial_html/index.html)
-* [style.css](https://raw.githubusercontent.com/dhughes/tiy-developer-designer-crashcourse/master/initial_html/style.css)
+* Create CSS and JS folders
+* Create empty files for 
+	* index.html 
+	* recipe.html
+	* recipeForm.html
+*  CSS files for Search
+	* style.css
 
 **Core Concepts:**
 
+* Static resources
 * HTML describes the layout of page
 * CSS makes it look good
 * Natural templates / clickable HTML
