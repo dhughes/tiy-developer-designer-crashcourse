@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="utf-8"/>
+    <title>Recipes Search</title>
+</head>
+
+<link rel="stylesheet" type="text/css" href="../static/css/style.css"
+      th:href="@{css/style.css}"/>
+<body>
+
+<a href="index.html" th:href="@{/}" aria-label="back to search"
+   class="icon back">&#10094;</a>
+
+<section id="container" class="recipe-form">
+    <h1>Create a new recipe!</h1>
+
+    <form action="index.html" th:action="@{/saveRecipe}" method="post">
+        <input type="text" name="title" placeholder="Title" />
+
+        <textarea name="description" placeholder="Description"></textarea>
+
+        <input type="text" name="servings" placeholder="Number of Servings"/>
+
+        <input type="text" name="imageUrl" placeholder="Insert Image Link"/>
+
+        <div class="recipe-form-list">
+            <ul>
+                <h2>Ingredients</h2>
+
+                <li><input type="text" name="ingredients[0].name" placeholder="New Ingredient"/></li>
+
+                <li><input type="text" name="ingredients[1].name" placeholder="New Ingredient"/></li>
+            </ul>
+
+            <a class="icon more" id="add-ingredient" aria-label="add-ingrdient">&#43;</a>
+        </div>
+
+
+        <div class="recipe-form-list">
+            <ol>
+                <h2>Instructions</h2>
+
+                <li><input type="text" name="instructions[0].instruction" placeholder="New Instruction"/></li>
+
+                <li><input type="text" name="instructions[1].instruction" placeholder=" New Instruction"/></li>
+            </ol>
+
+            <a class="icon more" id="add-instruction"  aria-label="add-instruction">&#43;</a>
+        </div>
+        <br />
+
+        <button>Create!</button>
+    </form>
+</section>
+
+<script type="text/javascript" src="../static/js/script.js" th:src="@{/js/script.js}"></script>
+</body>
+</html>

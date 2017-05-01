@@ -174,11 +174,11 @@
 
 ## Implement Recipe View
 
-Done By:
+**Done By:**
 
 	Doug
 
-Demo:
+**Demo:**
 
 * Updating recipe.html with thymeleaf
 * Update RecipeRepository.java
@@ -191,27 +191,64 @@ Demo:
 	* Gets data from repo
 	* shows via th attrs
 
-Core Concepts:
+**Core Concepts:**
 
 * ????
 
-## Refine Recipe HTML and CSS
+## Make HTML Responsive
 
+**Done By:**
+	
+	Lexi
 
-## Start Add Recipe Form
+**Demo:**
 
-Doug makes it ugly
+* Update css
+	* styles.css
 
-## Make Recipe form not hideous
+**Core Concepts:**
 
-Lexi does CSS and JS
+* Mobile responsiveness 
+
+## Make Recipe Form and JS
+
+**Done By:**
+	
+	Lexi
+
+**Demo:**
+
+* Add HTML to recipeForm.html
+* Add adding elements in script.js
+* Add CSS style updates in style.css
+
+**Core Concepts:**
+
+* More HTMLs
+* Basic JS to make client side interactive 
 
 ## Implement Save Recipe
 
-Doug update JS / connects to DB
+**Done By:**
+
+	Doug
+
+**Demo:**
+
+* Update html
+	* recipe.html
+	* recipeForm.html
+* Update script.js
+* Update RecipeController.java
+* Update RecipeRepository.java
+* Update entities
+	* Ingredient.java
+	* Instruction.java
+	* Recipe.java
+
 
 ## Take aways
 
-Lexi didn't need Java at all
-Doug didn't need skill at design
-Teamwork!
+- Lexi didn't need Java at all
+- Doug didn't need skill at design
+- Teamwork!
