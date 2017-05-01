@@ -166,3 +166,21 @@
 * Development is an iterative process
 * ?????
 
+## Start Recipe HTML 
+
+**Done By:**
+
+	Lexi
+
+**Demo:**
+
+* Create recipe html
+* Update CSS
+
+**Code:**
+
+* recipe.html
+
+**Core Concepts:**
+
+* More natural templates (click from index to recipe)
