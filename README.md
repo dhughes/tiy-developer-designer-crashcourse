@@ -152,29 +152,6 @@
 * Thymeleaf renders HTML
 	* HTML still functions as a natural template
 
-## Update Search HTML and CSS
-
-**Done By:**
-
-	Lexi
-
-**Demo:**
-
-* Apply CSS changes
-* Apply HTML changes
-
-**Code:**
-
-* [style.css](https://raw.githubusercontent.com/dhughes/tiy-developer-designer-crashcourse/master/update_search_html_css/style.css)
-* [index.html](https://raw.githubusercontent.com/dhughes/tiy-developer-designer-crashcourse/master/update_search_html_css/index.html)
-
-**Core Concepts:**
-
-* CSS used for styling
-* Development is an iterative process
-* First step is just to get something on the page so that Doug and the backend developers can work. After, you can start refining.
-* Add media queries for responsiveness.
-
 ## Start Recipe HTML
 
 **Done By:**
@@ -183,12 +160,12 @@
 
 **Demo:**
 
-* Create recipe html
-* Update CSS
-
-**Code:**
-
-* recipe.html
+* Fix home image object fit
+* Create
+	* recipe.html
+* Update 
+	* index.html
+	* style.css
 
 **Core Concepts:**
 
@@ -203,11 +180,16 @@ Done By:
 
 Demo:
 
-* ????
-
-Code:
-
-* ????
+* Updating recipe.html with thymeleaf
+* Update RecipeRepository.java
+	* Changed sorting
+	* Requiring updates to entities
+		* Recipe.java
+		* Ingredient.java
+		* Instruction.java
+* Update RecipeController.java
+	* Gets data from repo
+	* shows via th attrs
 
 Core Concepts:
 
