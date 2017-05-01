@@ -97,14 +97,15 @@
 **Demo:**
 
 * Clone from Github
-* Create templates and static folders
+* Create templates and static folders (goes into src > main > resources) and add index / css / js
 * Create CSS and JS folders
 * Create empty files for 
-	* index.html 
+	* [index.html](https://raw.githubusercontent.com/dhughes/tiy-developer-designer-crashcourse/master/initial_html/index.html) 
 	* recipe.html
 	* recipeForm.html
 *  CSS files for Search
-	* style.css
+	* [style.css](https://raw.githubusercontent.com/dhughes/tiy-developer-designer-crashcourse/master/initial_html/style.css)
+* Add placeholder images from web. Kittens!
 
 **Core Concepts:**
 
@@ -177,9 +178,9 @@
 * CSS used for styling
 * Development is an iterative process
 * First step is just to get something on the page so that Doug and the backend developers can work. After, you can start refining.
-* Add media queries for responsiveness. 
+* Add media queries for responsiveness.
 
-## Start Recipe HTML 
+## Start Recipe HTML
 
 **Done By:**
 
@@ -197,6 +198,7 @@
 **Core Concepts:**
 
 * More natural templates (click from index to recipe)
+
 
 ## Implement Recipe View
 
