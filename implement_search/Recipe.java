@@ -1,4 +1,4 @@
-package com.theironyard.entity;
+package com.example.entity;
 
 import java.util.List;
 
