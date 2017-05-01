@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One|Catamaran:300');
+
+body {
+  background: teal;
+  font-family: 'Catamaran', sans-serif;
+  text-align: center;
+}
+
+h1 {
+  font-size: 40px;
+  text-transform: uppercase;
+  font-family: 'Fjalla One', sans-serif;
+}
+
+h2 {
+  font-size: 30px;
+  text-transform: uppercase;
+  font-family: 'Fjalla One', sans-serif;
+}
+
+p, li {
+  font-size: 20px;
+  padding: 0 20px;
+}
+
+#container {
+  background: white;
+  overflow: hidden;
+  padding: 40px 0;
+}
+
+form {
+  margin: 0 15%;
+}
+
+input {
+  border: none;
+  border-bottom: 5px solid teal;
+  width: 90%;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 40px;
+  font-family: 'Fjalla One', sans-serif;
+}
+
+.recipe-form input, textarea {
+  border-bottom: 2px solid teal;
+  width: 100%;
+  text-transform: none;
+  font-size: 20px;
+  font-family: 'Catamaran', sans-serif;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+textarea {
+  /*border: 2px solid teal;*/
+}
+
+input:focus{
+  outline: none;
+}
+
+input:focus::-webkit-input-placeholder, textarea:focus::-webkit-input-placeholder {
+  color: lightgrey;
+}
+
+button {
+  display: block;
+  margin: 30px auto;
+  background: teal;
+  color: white;
+  font-family: 'Catamaran', sans-serif;
+  border: 1px solid teal;
+  border-radius: 3px;
+  padding: 5px 35px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+button:hover{
+  color: teal;
+  background: white;
+}
+
+article {
+  width: 48%;
+  float: left;
+  height: 200px;
+  margin: 1%;
+  object-fit: cover;
+  position: relative;
+}
+
+article:after {
+    content:'';
+    position:absolute;
+    width:100%; height:100%;
+    top:0; left:0;
+    background:rgba(0,128,128,0.6);
+    opacity:0;
+}
+article:hover:after {
+    opacity:1;
+}
+
+article img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+article h3{
+  margin: 0;
+  position: absolute;
+  bottom: 0px;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px;
+  text-transform: lowercase;
+}
+
+.icon {
+  top: 15px;
+  margin-bottom: 10px;
+  color: teal;
+  background: white;
+  display: inline-block;
+  padding: 10px;
+  text-align: center;
+  border-radius: 3px;
+  font-size: 15px;
+  font-weight: bold;
+  text-decoration: none;
+  width: 25px;
+  height: 25px;
+  border: 1px solid teal;
+}
+
+.icon:hover {
+  color: white;
+  border: 1px solid white;
+  background: teal;
+}
+
+.new-recipe {
+  right: 30px;
+}
+
+.back{
+  left: 30px;
+}
+
+.recipeImg {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+aside {
+  text-align: left;
+}
+
+.recipe {
+  border: 2px solid teal;
+  margin: 10px;
+}
+
+.recipe-form-list{
+  box-sizing: border-box;
+  float:left;
+  width: 50%;
+}
+
+.recipe-form-list ul, .recipe-form-list ol {
+  padding: 0;
+}
+
+.recipe-form-list li input {
+  width: 100% !important;
+}
+
+br {
+  clear:both;
+}
+
+
+@media (min-width: 768px) {
+  #container {
+    margin: 0 15%;
+  }
+
+  article {
+    width: 31.3%;
+  }
+
+  .icon {
+    position: absolute;
+    display: block;
+  }
+
+  .more {
+    position: static;
+    margin: 0 auto;
+    cursor: pointer;
+  }
+
+ input {
+    width: 50%;
+  }
+
+  .recipe-form input,textarea {
+    width: 100%;
+  }
+
+  aside {
+    display: flex;
+    justify-content: center;
+  }
+
+  .recipeImg {
+    height: 400px;
+  }
+}
