@@ -157,4 +157,12 @@
 
 **Code:**
 
-* style.css
+* [style.css](https://raw.githubusercontent.com/dhughes/tiy-developer-designer-crashcourse/master/update_search_html_css/style.css)
+* [index.html](https://raw.githubusercontent.com/dhughes/tiy-developer-designer-crashcourse/master/update_search_html_css/index.html)
+
+**Core Concepts:**
+
+* CSS used for styling 
+* Development is an iterative process
+* ?????
+
