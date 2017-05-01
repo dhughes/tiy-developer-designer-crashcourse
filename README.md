@@ -168,11 +168,8 @@
 
 * CSS used for styling
 * Development is an iterative process
-<<<<<<< HEAD
 * First step is just to get something on the page so that Doug and the backend developers can work. After, you can start refining.
 * Add media queries for responsiveness. 
-=======
-* ?????
 
 ## Start Recipe HTML 
 
@@ -192,4 +189,42 @@
 **Core Concepts:**
 
 * More natural templates (click from index to recipe)
->>>>>>> 08fbed90f02acabdf658272db3a7018225d28d86
+
+## Implement Recipe View
+
+Done By:
+
+	Doug
+
+Demo:
+
+* ????
+
+Code:
+
+* ????
+
+Core Concepts:
+
+* ????
+
+## Refine Recipe HTML and CSS
+
+
+## Start Add Recipe Form
+
+Doug makes it ugly
+
+## Make Recipe form not hideous
+
+Lexi does CSS and JS
+
+## Implement Save Recipe
+
+Doug update JS / connects to DB
+
+## Take aways
+
+Lexi didn't need Java at all
+Doug didn't need skill at design
+Teamwork!
