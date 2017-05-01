@@ -123,13 +123,13 @@
 
 **Code:**
 
-* [Ingredient](https://raw.githubusercontent.com/dhughes/tiy-developer-designer-crashcourse/master/implement_search/Ingredient.java)
-* [Instruction](https://raw.githubusercontent.com/dhughes/tiy-developer-designer-crashcourse/master/implement_search/Instruction.java)
-* [Recipe](https://raw.githubusercontent.com/dhughes/tiy-developer-designer-crashcourse/master/implement_search/Recipe.java)
+* [Ingredient.java](https://raw.githubusercontent.com/dhughes/tiy-developer-designer-crashcourse/master/implement_search/Ingredient.java)
+* [Instruction.java](https://raw.githubusercontent.com/dhughes/tiy-developer-designer-crashcourse/master/implement_search/Instruction.java)
+* [Recipe.java](https://raw.githubusercontent.com/dhughes/tiy-developer-designer-crashcourse/master/implement_search/Recipe.java)
 * SQL <------ @todo
-* [RecipeRepository](https://raw.githubusercontent.com/dhughes/tiy-developer-designer-crashcourse/master/implement_search/RecipeRepository.java)
+* [RecipeRepository.java](https://raw.githubusercontent.com/dhughes/tiy-developer-designer-crashcourse/master/implement_search/RecipeRepository.java)
 * [application.properties](https://raw.githubusercontent.com/dhughes/tiy-developer-designer-crashcourse/master/implement_search/application.properties)
-* [RecipeController](https://raw.githubusercontent.com/dhughes/tiy-developer-designer-crashcourse/master/implement_search/RecipeController.java)
+* [RecipeController.java](https://raw.githubusercontent.com/dhughes/tiy-developer-designer-crashcourse/master/implement_search/RecipeController.java)
 * [index.html](https://raw.githubusercontent.com/dhughes/tiy-developer-designer-crashcourse/master/implement_search/index.html) (updated)
 
 **Core Concepts:**
@@ -143,3 +143,18 @@
 	* Recipe data is passed to HTML
 * Thymeleaf renders HTML
 	* HTML still functions as a natural template
+
+## Update Search HTML and CSS
+
+**Done By:**
+
+	Lexi
+
+**Demo:**
+
+	* Apply CSS changes
+	* Apply HTML changes
+
+**Code:**
+
+* style.css
