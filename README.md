@@ -189,3 +189,43 @@
 **Core Concepts:**
 
 * More natural templates (click from index to recipe)
+
+
+## Implement Recipe View
+
+Done By:
+
+	Doug
+
+Demo:
+
+* ????
+
+Code:
+
+* ????
+
+Core Concepts:
+
+* ????
+
+## Refine Recipe HTML and CSS
+
+
+## Start Add Recipe Form
+
+Doug makes it ugly
+
+## Make Recipe form not hideous
+
+Lexi does CSS and JS
+
+## Implement Save Recipe
+
+Doug update JS / connects to DB
+
+## Take aways
+
+Lexi didn't need Java at all
+Doug didn't need skill at design
+Teamwork!
