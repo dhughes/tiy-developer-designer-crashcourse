@@ -64,7 +64,7 @@
 
 * Create a Github repo
 	* Add Lexi as collaborator
-* Create an IntelliJ project
+* Create a Spring project in IntelliJ
 * Push to Github
 
 **Core Concepts:**
@@ -76,9 +76,10 @@
 * IntelliJ is a tool to edit Java source code.
 	* Source code are the files that make up a programming project.
 	* Projects are collections of related files.
+* Spring is a tool used to organize and simplify my code.
 * Pushing in Git is how I share with Lexi
 
-## Initial HTML
+## Initial Search HTML
 
 **Done By:**
 
@@ -87,12 +88,12 @@
 **Demo:**
 
 * Create templates and static folders
-* Create HTML and CSS files
+* Create HTML and CSS files for Search
 
 **Code:**
 
-	@todo link to first HTML file here
-	@todo link to first CSS file here
+* [index.html](https://raw.githubusercontent.com/dhughes/tiy-developer-designer-crashcourse/master/initial_html/index.html)
+* [style.css](https://raw.githubusercontent.com/dhughes/tiy-developer-designer-crashcourse/master/initial_html/style.css)
 
 **Core Concepts:**
 
@@ -100,3 +101,44 @@
 * CSS makes it look good
 * Natural templates / clickable HTML
 	* Doesn't depend on Java yet
+
+## Implement Search
+
+**Done By:**
+
+	Doug
+
+**Demo:**
+
+* Create classes to describe recipes
+	* Recipe
+	* Ingredient
+	* Instruction
+* Create a database
+	* Add connection in IntelliJ to view data
+* Create a data access object / repository
+* Create class to "control" application
+	* RecipeController
+* Add Thymeleaf attributes to HTML to make it display our data.
+
+**Code:**
+
+* Ingredient
+* Instruction
+* Recipe
+* SQL 
+* RecipeRepository
+* application.properties
+* 
+
+**Core Concepts:**
+
+* Classes are used to describe objects and perform actions. 
+* Databases store data
+* SQL is a language used to retrieve data from the database.
+* Controller receives requests from browsers
+	* Gets data from DB using repository
+		* Data translated to list of recipes
+	* Recipe data is passed to HTML
+* Thymeleaf renders HTML
+	* HTML still functions as a natural template
