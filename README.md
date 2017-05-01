@@ -91,8 +91,9 @@
 
 **Demo:**
 
-* Create templates and static folders
+* Create templates and static folders (goes into src > main > resources) and add index / css / js
 * Create HTML and CSS files for Search
+* Add placeholder images from web. Kittens!
 
 **Code:**
 
