@@ -2,7 +2,7 @@
 
 ## Feature list
 
-**Done by:** 
+**Done by:**
 
 	Lexi and Doug
 
@@ -16,11 +16,13 @@
 
 **Core Concepts:**
 
-* ????
+* Kickoff meeting
+* Planning and everyone on same page
+* Project roadmap  
 
 ## Whiteboard
 
-**Done by:** 
+**Done by:**
 
 	Lexi and Doug
 
@@ -51,12 +53,14 @@
 
 **Core Concepts:**
 
-* Sketch is a design tool used for ...???
-* Mockups / designs help you understand ...???
+* Sketch is a design tool used on Macs that helps designers create full color mockups. Its an alternative to Photoshop or Illustrator
+* Mockups / designs help you visualize how a project will look before you touch a line of code.
+* Keeps you from wasting times
+* Should create all levels of responsiveness (mobile and desktop)
 
 ## Project setup
 
-**Done by:** 
+**Done by:**
 
 	Doug
 
@@ -134,7 +138,7 @@
 
 **Core Concepts:**
 
-* Classes are used to describe objects and perform actions. 
+* Classes are used to describe objects and perform actions.
 * Databases store data
 * SQL is a language used to retrieve data from the database.
 * Controller receives requests from browsers
@@ -162,7 +166,7 @@
 
 **Core Concepts:**
 
-* CSS used for styling 
+* CSS used for styling
 * Development is an iterative process
-* ?????
-
+* First step is just to get something on the page so that Doug and the backend developers can work. After, you can start refining.
+* Add media queries for responsiveness. 
