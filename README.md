@@ -152,8 +152,8 @@
 
 **Demo:**
 
-	* Apply CSS changes
-	* Apply HTML changes
+* Apply CSS changes
+* Apply HTML changes
 
 **Code:**
 
