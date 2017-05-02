@@ -180,8 +180,11 @@ aside {
   padding: 0;
 }
 
-.recipe-form-list li input {
-  width: 100% !important;
+.recipe-form li textarea {
+  position: relative;
+  top: -23px;
+  right: 20px;
+  margin-bottom: 0;
 }
 
 br {
