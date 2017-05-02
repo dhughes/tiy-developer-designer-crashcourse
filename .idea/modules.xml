@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/tiy-developer-designer-crashcourse.iml" filepath="$PROJECT_DIR$/.idea/tiy-developer-designer-crashcourse.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../tiy-foodster-cc/tiy-foodster-cc.iml" filepath="$PROJECT_DIR$/../tiy-foodster-cc/tiy-foodster-cc.iml" />
+    </modules>
+  </component>
+</project>

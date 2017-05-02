@@ -22,9 +22,4 @@ public class RecipeController {
 
         return "index";
     }
-
-    @GetMapping("/recipe")
-    public String showRecipe(Integer recipeId){
-        return "recipe";
-    }
 }

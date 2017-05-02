@@ -67,25 +67,30 @@
 
 * Create a Github repo
 	* Add Lexi as collaborator
+* Clone repo
 * Create a Spring project in IntelliJ
-	* Web
-	* Thymeleaf
-	* JDBC
-	* Postgres
-	* Devtools
+	* **Web** 
+	* **Thymeleaf** - to make Lexi's HTML show my data
+	* **JDBC** - to connect to databases
+	* **Postgres** - a tool that knows how to talk to the database we're using
+	* **Devtools** - a tool to make running code faster in development
 * Push to Github
 
 **Core Concepts:**
 
-* Git is a source code control system
-	* Stores versions of files as we work through project
-* Github is a collaboration tool
-	* Share repositories with others.
+* Github is a tool for collaboration on software projects
+	* Projects hold code
+	* Collaborators can update the code in the project
+* Github works with Git
+	* Source code control system
+	* Keeps track of the changes we've made (versions)
+	* Can push and pull code to/from github
 * IntelliJ is a tool to edit Java source code.
-	* Source code are the files that make up a programming project.
+	* Source code is the set of files that make up a project.
 	* Projects are collections of related files.
-* Spring is a tool used to organize and simplify my code.
-* Pushing in Git is how I share with Lexi
+	* We are creating a Spring Boot project.
+		* Spring is a framework for organizing and simplify my code.
+* Pushing in Git is how I share my code with Lexi
 
 ## 1. Initial Search HTML
 
@@ -141,15 +146,31 @@
 
 **Core Concepts:**
 
-* Classes are used to describe objects and perform actions.
-* Databases store data
-	* Tables
-* SQL is a language used to retrieve data from the database.
-* Controller receives requests from browsers
-	* Gets data from DB using repository
-		* Data translated to list of recipes
-	* Recipe data is passed to HTML
-* Thymeleaf renders HTML
+* Java is an Object Oriented programming language
+	* We create classes that describe objects.
+	* Objects have descriptive properties and can perform actions via methods.
+	* Classes are to blueprints as Objects are to houses.
+	* The Recipe, Ingredient, and Instruction classes work together to describe a recipe
+* Data in computers is ephemeral.
+	* Stopping program erases memory
+	* We want to persist
+	* Files are one way to do this (like Save in Word)
+* Databases store data on disk
+	* Like spreadsheets
+	* Made up of related tables
+	* Tables are made up of columns and rows
+	* Columns describe properties (like properties in a class)
+	* Rows describe a given item (like a class)
+* We need to tell Spring how to reach our database
+	* Uses the JDBC and Postgres dependencies
+* The RecipeRepository gets data from the database for me.
+	* Using SQL
+	* Translates it into our recipe (etc) objects
+* Spring gives us a framework to handle web requests
+	* RecipeController receives request from browser
+	* Uses the RecipeRepository to get data
+	* Passes it (via the model) to the HTML to be displayed
+* Thymeleaf makes Lexi's templates dynamic.
 	* HTML still functions as a natural template
 
 ## 3. Start Recipe HTML
@@ -173,7 +194,6 @@
 * At this stage, fix any bugs on the search page such as skewed images and finish most of the styling.
 * Move on the recipe detail page and again, at this point just trying to style enough so that is resembles my mockup and that Doug can start working.
 
-
 ## 4. Implement Recipe View
 
 **Done By:**
@@ -182,20 +202,25 @@
 
 **Demo:**
 
-* Updating recipe.html with thymeleaf
 * Update RecipeRepository.java
-	* Changed sorting
-	* Requiring updates to entities
-		* Recipe.java
-		* Ingredient.java
-		* Instruction.java
 * Update RecipeController.java
-	* Gets data from repo
-	* shows via th attrs
+* Update recipe.html for thymeleaf
 
 **Core Concepts:**
 
-* ????
+* Methods are how we give object capabilities in Java
+	* I want to be able to get a specific recipe
+		* I add a method to the thing that gets recipes from the database
+		* RecipeRepository
+			* Added method to get a specific recipe
+				* Added two support methods used by the first one
+			* Changed how recipe list is sorted via SQL
+	* I want my application to be able to show recipes
+		* I add a method to the controller
+		* Added a Spring annotation to make it work
+			* It uses RecipeRepository to get data and passes it to Thymeleaf
+* Thymeleaf is used to make static HTML be dynamic.
+	* Natural templates
 
 ## 5. Make HTML Responsive
 
@@ -242,21 +267,73 @@
 
 **Demo:**
 
-* Update html
-	* recipe.html
-	* recipeForm.html
-* Update script.js
 * Update RecipeController.java
 * Update RecipeRepository.java
-* Update entities
-	* Ingredient.java
-	* Instruction.java
-	* Recipe.java
+* Update recipeForm.html
+* Update script.js
 
+**Core Concepts:**
+
+* Collaboration
+	* Lexi and I both edited script.js
+* HTTP
+	* The protocol browsers use to send information across the internet
+	* Get - Gets something from a server
+	* Post - Sends form data to a server
+* Looping
+	* Code can do things repeatedly. 
+	* In the RecipeRepository I use for loops to save each individual Ingredient and Instruction 
+* Data is persisted in database
+
+## Demo add Recipe
+
+**Name:**
+
+Easy Swedish Meatballs and Smashed Potatoes Recipe
+
+**Description:**
+
+A meat dish, originating in Europe, that uses meatballs combined with a sauce that is served as a main dish. Referred to as köttbullar in Sweden, Swedish meatballs is a food dish that uses beef, pork, veal, or a combination of several meats as the base for the meat ingredients.
+
+**Servings:**
+
+2
+
+**Image URL:**
+
+http://www.seriouseats.com/recipes/assets_c/2012/09/20120904SwedishMeatballs-thumb-625xauto-269513.jpg
+
+**Ingredients:**
+
+1 pound baby new potatoes
+Kosher salt and freshly ground black pepper
+14 ounces of sweet pork sausage, removed from its casing
+1/4 cup breadcrumbs (preferably fresh)
+1/4 cup milk, plus 6 tablespoons
+1/2 teaspoon ground nutmeg or allspice (or a combination of the two), divided
+1 pound baby new potatoes
+Kosher salt and freshly ground black pepper
+14 ounces of sweet pork sausage, removed from its casing
+1/4 cup breadcrumbs (preferably fresh)
+1/4 cup milk, plus 6 tablespoons
+1/2 teaspoon ground nutmeg or allspice (or a combination of the two), divided
+Lingonberry jam (optional)
+
+**Instructions:**
+
+Put the potatoes in a stockpot, and cover by an inch of water. Season with salt and boil until tender, about 10 minutes.
+
+In a large bowl, gently mix together the sausage meat, breadcrumbs, 1/4 cup milk, 1/4 teaspoon of nutmeg or allspice, and 1/2 teaspoon pepper. Using wet hands or a scoop, divide mixture into 20 balls.
+
+Heat olive oil in a large nonstick skillet over medium-high heat until shimmering. Add meatballs and brown on all sides, about 5 minutes total. Add broth, cover the pot, and simmer until the meatballs are cooked through, about 10 minutes. Add the remaining nutmeg or allspice and 2 tablespoons crème fraîche or sour cream. Stir to combine and simmer until sauce thickens lightly. Season to taste with salt and pepper.
+
+Drain the potatoes, and return back to their hot pot. Add 6 tablespoons milk and 1/4 cup of crème fraîche or sour cream, and season with salt and pepper. Add half the parsley, if using, and smash the potatoes. Plate the potatoes, and pour the meatballs and sauce over the top. Top with the remaining parsley. Serve with lingonberry jam
 
 ## Take aways
 
 - Lexi didn't need Java at all
 - Doug didn't need skill at design
 - Teamwork!
-- We worked together to make sure to communicate any bugs as they happened. Because Lexi didn't have Java on her computer, things could look a little different when Doug implemented the actual data. The big key was that if something didn't look right or behaved strange, Doug pointed it out immediately and that took precedent. 
+- We worked together to make sure to communicate any bugs as they happened. 
+	- Because Lexi didn't have Java on her computer, things could look a little different when Doug implemented the actual data. 
+	- The big key was that if something didn't look right or behaved strange, Doug pointed it out immediately and that took precedent. 
