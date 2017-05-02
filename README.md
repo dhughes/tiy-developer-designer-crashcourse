@@ -36,8 +36,7 @@
 **Core Concepts:**
 
 * Communication
-* Disposable
-* Something, something, design....
+* Disposable and fast
 * Focus on how this is good for designers / UX to think about how users use an application
 * Easy to change
 
@@ -88,7 +87,7 @@
 * Spring is a tool used to organize and simplify my code.
 * Pushing in Git is how I share with Lexi
 
-## Initial Search HTML
+## 1. Initial Search HTML
 
 **Done By:**
 
@@ -99,8 +98,8 @@
 * Clone from Github
 * Create templates and static folders (goes into src > main > resources) and add index / css / js
 * Create CSS and JS folders
-* Create empty files for 
-	* [index.html](https://raw.githubusercontent.com/dhughes/tiy-developer-designer-crashcourse/master/initial_html/index.html) 
+* Create empty files for
+	* [index.html](https://raw.githubusercontent.com/dhughes/tiy-developer-designer-crashcourse/master/initial_html/index.html)
 	* recipe.html
 	* recipeForm.html
 *  CSS files for Search
@@ -114,8 +113,9 @@
 * CSS makes it look good
 * Natural templates / clickable HTML
 	* Doesn't depend on Java yet
+* This initial round is just to get the basics so that Doug can start setting up the backend. Proof of concept and not perfect.
 
-## Implement Search
+## 2. Implement Search
 
 **Done By:**
 
@@ -152,7 +152,7 @@
 * Thymeleaf renders HTML
 	* HTML still functions as a natural template
 
-## Start Recipe HTML
+## 3. Start Recipe HTML
 
 **Done By:**
 
@@ -163,16 +163,18 @@
 * Fix home image object fit
 * Create
 	* recipe.html
-* Update 
+* Update
 	* index.html
 	* style.css
 
 **Core Concepts:**
 
 * More natural templates (click from index to recipe)
+* At this stage, fix any bugs on the search page such as skewed images and finish most of the styling.
+* Move on the recipe detail page and again, at this point just trying to style enough so that is resembles my mockup and that Doug can start working.
 
 
-## Implement Recipe View
+## 4. Implement Recipe View
 
 **Done By:**
 
@@ -195,10 +197,10 @@
 
 * ????
 
-## Make HTML Responsive
+## 5. Make HTML Responsive
 
 **Done By:**
-	
+
 	Lexi
 
 **Demo:**
@@ -208,12 +210,14 @@
 
 **Core Concepts:**
 
-* Mobile responsiveness 
+* At this stage, before I get too far into the javascript and behavior, work on the responsiveness.
+* Add media queries and refactor some of my code to be more readable.
+* Mention what mobile first design is (I didn't necessarily do that on this project but refactored my code to be that way)
 
-## Make Recipe Form and JS
+## 6. Make Recipe Form and JS
 
 **Done By:**
-	
+
 	Lexi
 
 **Demo:**
@@ -224,10 +228,13 @@
 
 **Core Concepts:**
 
-* More HTMLs
-* Basic JS to make client side interactive 
+* More HTML and CSS for the recipe detail page
+* Got the page set up and visually like I wanted it before worrying about interactivity. This is called a static prototype.
+* At this point, add some javascript to make it interactive.
+* Made it so that more input fields can be added.
 
-## Implement Save Recipe
+
+## 7. Implement Save Recipe
 
 **Done By:**
 
@@ -252,3 +259,4 @@
 - Lexi didn't need Java at all
 - Doug didn't need skill at design
 - Teamwork!
+- We worked together to make sure to communicate any bugs as they happened. Because Lexi didn't have Java on her computer, things could look a little different when Doug implemented the actual data. The big key was that if something didn't look right or behaved strange, Doug pointed it out immediately and that took precedent. 
