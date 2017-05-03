@@ -356,14 +356,12 @@ Drain the potatoes, and return back to their hot pot. Add 6 tablespoons milk and
 
 * Creating Heroku project
 	* `heroku apps:create tiy-foodster-cc` 
-* Git add remote for heroku
-	* `git remote add heroku ...` 
 * Backup database
 	* `pg_dump recipes > recipes.sql`
 * Create DB at Heroku
 	* `heroku addons:create heroku-postgresql --app tiy-foodster-cc`
 * Restore DB backup to Heroku
-	* `heroku pg:psql --app tiy-deleteme < recipes.sql`
+	* `heroku pg:psql --app tiy-foodster-cc < recipes.sql`
 * Add
 	* Procfile
 	* application-heroku.properties
