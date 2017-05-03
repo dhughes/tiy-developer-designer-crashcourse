@@ -32,6 +32,7 @@
 
 * Kickoff meeting
 * Planning and everyone on same page
+* MVP
 * Project roadmap  
 
 ## Whiteboard
@@ -287,7 +288,6 @@
 * Update RecipeController.java
 * Update RecipeRepository.java
 * Update recipeForm.html
-* Update script.js
 
 **Core Concepts:**
 
