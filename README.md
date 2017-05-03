@@ -1,5 +1,19 @@
 # Developer Designer Workflow
 
+## Introduction
+
+* I'm Lexi I do....
+	* Design
+	* Frontend
+* I'm Doug I do...
+	* Java
+	* Backend
+* Tonight we're talking about
+	* Developer/Designer workflow
+	* Frontend / Backend workflow
+* Introduce project
+	* Recipe sharing application
+
 ## Feature list
 
 **Done by:**
@@ -66,6 +80,7 @@
 **Demo:**
 
 * Create a Github repo
+	* `tiy-foodster-cc`
 	* Add Lexi as collaborator
 * Clone repo
 * Create a Spring project in IntelliJ
@@ -81,8 +96,9 @@
 * Github is a tool for collaboration on software projects
 	* Projects hold code
 	* Collaborators can update the code in the project
-* Github works with Git
+* Git works with Github
 	* Source code control system
+	* Timeline of changes
 	* Keeps track of the changes we've made (versions)
 	* Can push and pull code to/from github
 * IntelliJ is a tool to edit Java source code.
@@ -101,6 +117,7 @@
 **Demo:**
 
 * Clone from Github
+	* `git clone git@github.com:dhughes/tiy-foodster-cc.git`
 * Create templates and static folders (goes into src > main > resources) and add index / css / js
 * Create CSS and JS folders
 * Create empty files for
@@ -328,6 +345,24 @@ In a large bowl, gently mix together the sausage meat, breadcrumbs, 1/4 cup milk
 Heat olive oil in a large nonstick skillet over medium-high heat until shimmering. Add meatballs and brown on all sides, about 5 minutes total. Add broth, cover the pot, and simmer until the meatballs are cooked through, about 10 minutes. Add the remaining nutmeg or allspice and 2 tablespoons crème fraîche or sour cream. Stir to combine and simmer until sauce thickens lightly. Season to taste with salt and pepper.
 
 Drain the potatoes, and return back to their hot pot. Add 6 tablespoons milk and 1/4 cup of crème fraîche or sour cream, and season with salt and pepper. Add half the parsley, if using, and smash the potatoes. Plate the potatoes, and pour the meatballs and sauce over the top. Top with the remaining parsley. Serve with lingonberry jam
+
+## Deploy to production
+
+**Done by:**
+
+	Doug
+
+**Demo:**
+
+* Creating Heroku project
+* Procfile
+
+**Core Concepts:**
+
+* Production environment
+	* On the internet for the world
+* Development
+	* Private workspace
 
 ## Take aways
 
