@@ -355,7 +355,20 @@ Drain the potatoes, and return back to their hot pot. Add 6 tablespoons milk and
 **Demo:**
 
 * Creating Heroku project
-* Procfile
+	* `heroku apps:create tiy-foodster-cc` 
+* Git add remote for heroku
+	* `git remote add heroku ...` 
+* Backup database
+	* `pg_dump recipes > recipes.sql`
+* Create DB at Heroku
+	* `heroku addons:create heroku-postgresql --app tiy-foodster-cc`
+* Restore DB backup to Heroku
+	* `heroku pg:psql --app tiy-deleteme < recipes.sql`
+* Add
+	* Procfile
+	* application-heroku.properties
+* Git add / commit
+* `git push heroku master`
 
 **Core Concepts:**
 
@@ -363,6 +376,9 @@ Drain the potatoes, and return back to their hot pot. Add 6 tablespoons milk and
 	* On the internet for the world
 * Development
 	* Private workspace
+* Heroku is a convenient "cloud" hosting provider
+	* Use git to push project up
+
 
 ## Take aways
 
